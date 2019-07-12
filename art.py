@@ -40,4 +40,4 @@ def draw(canvas):
         triangle(canvas, points[a], points[b], points[c])
 
 
-drawing.makeImage("art.png", draw, pixelSize=(SIZE, SIZE), background=Color(1, 1, 1))
+drawing.makeImage("triangles.png", draw, pixelSize=(SIZE, SIZE), background=Color(1, 1, 1))
